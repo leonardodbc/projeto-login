@@ -5,3 +5,46 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+* {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    padding: 10px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: rgb(255, 108, 108);
+}
+
+label{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+}
