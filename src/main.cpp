@@ -116,6 +116,7 @@ int main()
                     cenoura = 1;
                     cout << "*Você pega o cajado e escuta um barulho vindo do lado de fora do quarto, você abre a porta e vê o quarto, onde Pancho está, com a porta aberta e um soldado segurando uma adaga indo em direção a ele, Pancho consegue ver você do outro lado do corredor, te encara e faz um sinal com a cabeça, então você corre até o soldado e ataca ele pelas costas, bate na cabeça dele com o seu cajado, com toda sua força e ele cai desmaiado no chão, vocês pegam a chave e trancam ele no quarto\n";
                     cout << "*Vocês escutam mais passos e murmúrios vindo de outro corredor, o que você faz?\n";
+                    
                     cout << "# 1- Voltar para o quarto \n";
                     cout << "# 2- Ir em direção ao barulho\n";
                     cin >> escolha;
@@ -230,7 +231,8 @@ int main()
                     cout << "* Vocês escutam mais passos e murmúrios vindo de outro corredor, o que você faz?\n";
                     cout << "# 1- Voltar para o quarto da frente\n";
                     cout << "# 2- Ir em direção ao barulho\n";
-
+                    cin >> escolha;
+                    cout << endl;
                     // Voltar para o quarto
                     if (escolha == 1){
                         cout << "\n";
@@ -281,7 +283,8 @@ int main()
                 cout << "*Vocês escutam mais passos e murmúrios vindo de outro corredor, o que você faz?\n";
                 cout << "# 1- Voltar para o quarto \n";
                 cout << "# 2- Ir em direção ao barulho\n";
-
+                cin >> escolha;
+                cout << endl;
                 // Voltar para o quarto
                 if (escolha == 1){
                     cout << "\n";
@@ -309,7 +312,8 @@ int main()
                 cout << "*Vocês escutam mais passos e murmúrios vindo de outro corredor, o que você faz?\n";
                 cout << "# 1- Voltar para o quarto \n";
                 cout << "# 2- Ir em direção ao barulho\n";
-
+                cin >> escolha;
+                cout << endl;
                 // Voltar para o quarto
                 if (escolha == 1){
                     cout << "\n";
