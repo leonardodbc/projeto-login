@@ -625,6 +625,7 @@ int main()
             // Pegar a chave
             else if (escolha == 2){
                 cout << "*Você pega a chave e ouve passos vindo de cima e barulhos de conversa descendo a escada e então abrem a porta e resolvem fugir, saem pela porta da frente e correm até a floresta, quando estão na metade do caminho para chegar até a floresta, um guarda avista vocês e aciona o alarme do prédio, vários soldados começam a se movimentar\n";
+                escolha = 1;
             }
 
             // Olhar a bolsa
@@ -642,7 +643,7 @@ int main()
         }
 
         // Correr para a porta
-        if (escolha == 2){
+        else if (escolha == 2){
             cout << "*Vocês correm até a porta para sair, chegando nela, Pancho gira a maçaneta e percebe que a porta está trancada, o coelho que estava escrevendo olha para vocês e grita \"GUARDAS!\", Pancho toma a frente e levanta seu escudo, guardas começam a descer pela escada, o que você faz?\n";
             cout << "# 1- Forçar a porta\n";
             cout << "# 2- Quebrar o vidro\n";
