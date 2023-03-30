@@ -764,6 +764,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -816,6 +817,7 @@ int main()
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                             cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
+                            return 0;
                         }
 
                         // GAME OVER
@@ -904,6 +906,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -956,6 +959,7 @@ int main()
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                             cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
+                            return 0;
                         }
 
                         // GAME OVER
@@ -1052,6 +1056,7 @@ int main()
                     cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                     cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
+                    return 0;
                 }
 
                 // GAME OVER
@@ -1104,6 +1109,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -1216,6 +1222,7 @@ int main()
                     cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                     cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
+                    return 0;
                 }
 
                 // GAME OVER
@@ -1268,6 +1275,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -1370,6 +1378,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -1422,6 +1431,7 @@ int main()
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                             cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
+                            return 0;
                         }
 
                         // GAME OVER
@@ -1514,6 +1524,7 @@ int main()
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
+                        return 0;
                     }
 
                     // GAME OVER
@@ -1565,6 +1576,7 @@ int main()
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
                             cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
+                            return 0;
                         }
 
                         // GAME OVER
@@ -1814,6 +1826,7 @@ int main()
                 return 0;
                 cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
+                return 0;
             }
         }
         /*escolha 2 do elevador*/
