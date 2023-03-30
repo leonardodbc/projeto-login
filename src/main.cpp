@@ -23,7 +23,8 @@ int main()
               << ""
               << "-By Eduardo Ramos, Leonardo Cardoso, Yan Dagnoni e Lucas da Pieve \n\n\n\n\n\n";
     cout << "Insira seu nome, aventureiro(a): ";
-    cin >> JOGADOR;
+    cin.clear();
+    getline(cin, JOGADOR);
     cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
     cout << "Senora é um incrível mundo onde coelhos desenvolveram seu corpo e consciência, tal qual a ponto de ser comparada igual a dos humanos.\n\n";
     cout << "Os humanos e os coelhos coexistiram desde o princípio e poucas vezes entraram em conflitos, vezes em que políticos das duas espécies não tinham relações pessoais muito boas, mas nunca passando de um xingamento ali ou uma patada aqui. \n\n";
@@ -128,6 +129,7 @@ int main()
                     // Ir ao barulho - GAME OVER
                     else if (escolha == 2){
                         cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                     }
@@ -157,6 +159,7 @@ int main()
                     // Ir ao barulho - GAME OVER
                     if (escolha == 2){
                         cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                     }
@@ -208,6 +211,7 @@ int main()
                     // Ir ao barulho - GAME OVER
                     else if (escolha == 2){
                         cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                     }
@@ -235,6 +239,7 @@ int main()
                     // Ir ao barulho - GAME OVER
                     if (escolha == 2){
                         cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                     }
@@ -285,6 +290,7 @@ int main()
                 // Ir ao barulho - GAME OVER
                 else if (escolha == 2){
                     cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -312,6 +318,7 @@ int main()
                 // Ir ao barulho - GAME OVER
                 else if (escolha == 2){
                     cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -369,6 +376,7 @@ int main()
                     cout << "\"Estou procurando pelo Ovo Dourado\"\n";
                     cout << "* O soldado com a adaga faz um sinal e quatro dos cinco lançeiros atacam Pancho, ele vai a óbito no mesmo momento, então o outro soldado com lança põe a lança no seu pescoço\n";
                     cout << "Vocês nunca iram derrubar Wallace Pascal, o soldado te ataca - Game over\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -378,6 +386,7 @@ int main()
                     cout << "\"Viemos aqui para entrar para o Tooney Lunes\"\n";
                     cout << "* O soldado com a adaga faz um sinal e quatro dos cinco lançeiros atacam Pancho, ele vai a óbito no mesmo momento, então o outro soldado com lança põe a lança no seu pescoço\n";
                     cout << "\"Nós vimos a mensagem da resistência em seus pertences, sabemos da sua identidade, " + JOGADOR + "\" - Game over\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -393,6 +402,7 @@ int main()
             else if (escolha == 2)
             {
                 cout << "* Você e Pancho se encaram e vão para cima dos soldados, Pancho é empalado por quatro lanças e você é acertado com a lança no peito e derrubado no chão, o soldado, com a adaga, chega em você e termina o serviço -GAME OVER\n";
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
                 return 0;
             }
@@ -422,6 +432,7 @@ int main()
             else if (escolha == 2)
             {
                 cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - Game over\n";
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
                 return 0;
             }
@@ -525,6 +536,7 @@ int main()
                 // Continuar escondido - GAME OVER
                 else if (escolha == 2){
                     cout << "*Você continua escondido, esperando, o outro soldado volta e diz que não encontrou James, ele vão até o quarto de vocês e acham ele preso no quarto, acionam o alarme e em momentos você e Pancho são encontrados e executados -> GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -540,6 +552,7 @@ int main()
             // Ir pra cima - GAME OVER
             else if (escolha == 2){
                 cout << "*Você vai para cima dos soldados com seu cajado, acerta um deles e ele cai no chão, o outro soldado segura seu braço e corta sua coxa com a espada, você cambaleia para trás e cai, o soldado caido se levanta e começa a te chutar, eles prendem você e te levam de volta para o quarto, veêm o outro soldado preso no quarto e acionam o alarme do prédio, eles capturam Pancho e vocês são executados -> GAME OVER\n";
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
                 return 0;
             }
@@ -553,7 +566,7 @@ int main()
         }
 
         // Fugir com essa corda - GAME OVER
-        if (escolha == 2){
+        else if (escolha == 2){
             cout << "*Você desce primeiro pela corda e vai se escorando na parede, quando chega no final da corda, ainda é bem alto e você pula em uma moita, machuca seu braço mas nada muito grave, você da um sinal para Pancho e começa a arrumar mais moitas para Pancho cair, enquanto Pancho está descendo, dois guardas aparecem na janela e veêm vocês fugindo, acionam o alarme do prédio e cortam a corda de Pancho, ele cai com tudo no chão, quebra uma perna e não consegue mais andar, você:\n";
             cout << "# 1- Carrega Pancho nas costas\n";
             cout << "# 2- Se entregam\n";
@@ -561,12 +574,14 @@ int main()
             cout << "\n";
             if (escolha == 1){
                 cout << "*Você fala para Pancho subir em suas costas e ele usa toda a força restante para se apoiar em você, vocês seguem para a floresta, porém depois de algumas horas de procura, os guardas conseguem encontrar vocês, vocês são pegos e executados em nome dos Tooney Lunes - GAME OVER\n";
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
                 return 0;
             }
 
             else if (escolha == 2){
                cout << "*Você e Pancho se entregam para o Tooney Lunes, vocês são julgados e executados em nome do imperador Wallace Pascal - GAME OVER\n";
+               cout << "\n\n Digite 1 para Fechar!\n";
                cin >> FimInput;
                return 0;
             }  
@@ -633,6 +648,7 @@ int main()
             // Forçar a porta - GAME OVER
             if (escolha == 1){
                 cout << "*Você empurra a porta com toda a sua força, bate nela com o cajado, bate na maçaneta, porém ela não apresenta qualquer indício de que irá abrir, os guardas chegam em vocês, Pancho vai pra cima deles para dar tempo a você, os soldados capturam pancho e o executam, você tenta com sua última força abrir a porta, porém ela está intacta, os guardas pegar você e te executam. GAME OVER\n";
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
                 return 0;
             }
@@ -746,6 +762,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -797,6 +814,7 @@ int main()
                         else if (escolha == 2)
                         {
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                            cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
                         }
 
@@ -884,6 +902,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -935,6 +954,7 @@ int main()
                         else if (escolha == 2)
                         {
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                            cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
                         }
 
@@ -1030,6 +1050,7 @@ int main()
                 else if (escolha == 2)
                 {
                     cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                 }
 
@@ -1081,6 +1102,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -1192,6 +1214,7 @@ int main()
                 else if (escolha == 2)
                 {
                     cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                 }
 
@@ -1243,6 +1266,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -1344,6 +1368,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -1395,6 +1420,7 @@ int main()
                         else if (escolha == 2)
                         {
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                            cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
                         }
 
@@ -1486,6 +1512,7 @@ int main()
                     else if (escolha == 2)
                     {
                         cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                     }
 
@@ -1536,6 +1563,7 @@ int main()
                         else if (escolha == 2)
                         {
                             cout << "2 #> *Você ataca o coelho com o cajado, ele defende com o arco, prende seu cajado na linha e joga as duas armas para longe, elas caem da montanha, vocês continuam trocando socos e pontapés, esse arqueiro não estava para brincadeira, estava dando conta de vocês dois, alguns minutos depois de batalha intensa, escutam barulho de vários passos subindo a montanha perto de vocês, na frente, vinha um soldado dos tooney lunes com uma flecha no ombro, segurando seu cajado e o arco enroscados, atrás dele, uma dezena de soldados, o coelho arqueiro pisa no escudo de Pancho e salta por cima de vocês, ele pula montanha abaixo e desaparece, vocês são pegos pelos Tooney Lunes e executados. GAME OVER\n";
+                            cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
                         }
 
@@ -1683,6 +1711,7 @@ int main()
                         cout << "\"Olha só o que temos aqui, um humano insolente, acha mesmo que pode me atacar? O coelho mais poderoso de Senora? Saia do meu caminho. \" - Wallace\n\n";
 
                         cout << "*Wallace estende a mão em sua direção e uma névoa o empurra até a parede com muita força, você bate a cabeça e desfalece no chão. GAME OVER\n\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                         /*escolha 2 bateer no wallace ou não*/
@@ -1705,6 +1734,7 @@ int main()
                             cout << "*Você procura em sua bolsa e não acha nenhuma cenoura, Maximus é jogado para trás com a força de Wallace e bate contra a parede, ele cai no chão desfalecido, Wallace vira para você e ri novamente\n\n";
                             cout << "\"Então Maximus ainda tinha esperança de achar alguém digno para comer uma Cenoura Dourada? Pobre coitado, sempre foi iludido.\" - Wallace\n\n";
                             cout << "*Wallace invoca mais uma névoa que vai em sua direção e te agarra pelo pescoço, você não consegue mais respirar e vai perdendo suas forças até ficar inconsciente. GAME OVER\n";
+                            cout << "\n\n Digite 1 para Fechar!\n";
                             cin >> FimInput;
                             return 0;
                         }
@@ -1730,6 +1760,7 @@ int main()
                                 cout << "\"Vamos acabar com isso, " + JOGADOR + "\" - Maximus\n\n";
                                 cout << "*Vocês vão para cima de Wallace, Maximus lança uma bola de fogo e Wallace desvia, ele prepara para lançar uma névoa e você salta por cima dele, atacando-o com o cajado novamente a névoa protege ele porém Maximus havia lançado mais uma bola de fogo enquanto ele estava distraído e ele é arremessado contra a parede, você pula até ele e golpeia com o cajado e ele desmaia.\n\n";
                                 cout << "*Você e Maximus dominam a base e recuperam o Ovo Dourado, avisam a resistência e a operação de recuperação de Senora ocorre, depois de algumas semanas, os Tooney Lunes são erradicados e Senora volta ao normal, uma homenagem é prestada para Pancho em praça pública por seu sacrifício e coragem. FIM\n";
+                                cout << "\n\n Digite 1 para Fechar!\n";
                                 cin >> FimInput;
                                 /*comer a cenoura ou não*/
                             }
@@ -1738,6 +1769,7 @@ int main()
                                 cout << "2 #> *Você não come a cenoura, Maximus é jogado para trás com a força de Wallace e bate contra a parede, ele cai no chão desfalecido, Wallace vira para você e ri novamente\n\n";
                                 cout << "\"Então Maximus ainda tinha uma dessa depois de tantos anos hein? Ele deveria estar esperando por alguém certo para comer a Cenoura Dourada, mas esse é o seu fim\" - Wallace\n\n";
                                 cout << "*Wallace invoca mais uma névoa que vai em sua direção e te agarra pelo pescoço, você não consegue mais respirar e vai perdendo suas forças até ficar inconsciente. GAME OVER\n";
+                                cout << "\n\n Digite 1 para Fechar!\n";
                                 cin >> FimInput;
                                 return 0;
                             }
@@ -1765,6 +1797,7 @@ int main()
                     cout << "*A névoa avança contra vocês, Pancho te protege com o escudo e é arremessado contra a parede, o escudo sai voando e ele cai no chão, Pancho não se movimenta mais. Você avança contra Wallace para lhe acertar com o cajado, Wallace fica parado te encarando, quando o cajado vai acertar ele, um escudo o protege e seu cajado voa para longe, Wallace envolve a névoa em você e te levanta no ar, você começa a perder a respiração e sua visão começa a ficar turva, Wallace te joga na parede e você cai inconsciente no chão. \n\n";
                     cout << "*Wallace Pascal anuncia para Senora que o herói mandado para acabar com seu império fora derrotado, a resistência perde suas esperanças e Senora enfim sucumbe a seu poder.\n\n";
                     cout << "GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -1779,6 +1812,7 @@ int main()
             {
                 cout << "2 #> *Você e Pancho, com todas as suas forças, levantam o coelho e arremesa-o nos outros dois coelhos que estavam destraídos com o Maximus, que caem no chão, então Pancho clica em qualquer botão do elevador e a porta se fecha, porém o elevador não começa a subir e o gás volta a ser solto dentro do elevador, você e Pancho aguentam o máximo que podem, porém não tem mais saída. GAME OVER\n";
                 return 0;
+                cout << "\n\n Digite 1 para Fechar!\n";
                 cin >> FimInput;
             }
         }
@@ -1824,6 +1858,7 @@ int main()
                     cin >> escolha;
                     cout << "1 #> *Vocês vão para cima de Wallace, Maximus lança uma bola de fogo e Wallace desvia, ele prepara para lançar uma névoa e você salta por cima dele, atacando-o com o cajado novamente, a névoa protege ele porém Pancho aproxima-se enquanto ele estava distraído e arremessa-o na direção de Maximus, ele acerta um golpe flamejante em Wallace e ele cai no chão, você finaliza-o com uma cajadada e ele fica inconsciente no chão.\n\n";
                     cout << "*Vocês três dominam a base e recuperam o Ovo Dourado, avisam a resistência e a operação de recuperação de Senora ocorre, depois de algumas semanas os Tooney Lunes são erradicados e Senora volta ao normal e uma homenagem é prestada para os três grandes heróis de Senora. FIM\n\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -1849,6 +1884,7 @@ int main()
                     cout << "\"Guardas, acabem com ele\" - Wallace\n\n";
                     cout << "*Dezenas de soldados entram na sala e você luta incessantemente até que os guardas conseguem te acertar e você cai no chão desfalecido, Wallace Pascal anuncia para Senora que o herói mandado para acabar com seu império fora derrotado, a resistência perde suas esperanças e Senora enfim sucumbe a seu poder.\n\n";
                     cout << "GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -1884,6 +1920,7 @@ int main()
                     cout << "1 #> *Você e Pancho vão para cima de Wallace, tentam ataca-lo mas o escudo dele o protege, uma névoa surge por debaixo dele e arremessa vocês dois para longe, Maximus está em seu limite, Pancho joga o escudo em direção a Wallace que vira em direção a Pancho, joga Maximus contra a parede e avança para Pancho, segura-o pelo pescoço e afunda ele no chão, você golpeia Wallace com seu cajado mas o escudo novamente o protege, seu cajado sai voando e Wallace te envolve com névoa, Pancho levanta e agarra Wallace, Maximus, sem ter visto Pancho, lança uma bola de fogo em direção a Wallace e ele bota Pancho como escudo coelho para tomar a bola de fogo, Pancho cai no chão todo queimado e Wallace força a névoa envolta de seu pescoço, você não consegue mais respirar e começa a perder sua consciência, Wallace fala algo para Maximus, porém você não consegue mais ouvir, Wallace te joga no chão, já desfalecido, você se força para abrir os olhos e vê Maximus se rendendo para Wallace. Você fecha os olhos e desmaia.\n\n";
                     cout << "*Wallace Pascal anuncia para Senora que o herói mandado para acabar com seu império fora derrotado, a resistência perde suas esperanças e Senora enfim sucumbe a seu poder.\n\n";
                     cout << "GAME OVER\n";
+                    cout << "\n\n Digite 1 para Fechar!\n";
                     cin >> FimInput;
                     return 0;
                 }
@@ -1907,6 +1944,7 @@ int main()
                         cout << "*Maximus se apoia no escudo de Pancho e pega impulso indo para cima de Wallace, acerta-o com sua mão flamejante e ele é arremessado para a parede. Você olha para suas mãos e elas estão brilhando, sentindo um enorme poder, você avança para cima de Wallace com seu cajado e o acerta, o escudo dele quebra e a parede atrás dele também, você manda Wallace voando pelo pátio da base e ele para quando atinge um pilar. Todos os soldados olham para cima e vêem vocês três, os heróis de Senora, após uma intensa batalha, vocês dominam a base e recuperam o Ovo Dourado, avisam a resistência e a operação de recuperação de Senora ocorre, depois de algumas semanas, os Tooney Lunes são erradicados, Senora volta ao normal e uma homenagem é prestada para os três grandes heróis de Senora.\n\n";
 
                         cout << "FIM\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                         /*jogar o ovo dourado*/
@@ -1919,6 +1957,7 @@ int main()
                         cout << "\"FINALMENTE, EU ESTOU LIVRE\" ------\n\n";
                         cout << "*O coelho olha para vocês, Pancho se levanta e te protege com o escudo, o coelho ri novamente, agradece a sua estupidez e começa a flutuar no ar, ele quebra o teto e sai voando. Nem o corpo de Wallace e nem o corpo de Maximus estavam mais ali. Gritos podem ser ouvidos, no pátio da base, você e Pancho saem e presenciam um cena apocalíptica, o coelho dourado sugando a vida vital de todos os humanos e coelhos. Após alguns dias, toda a vida no planeta é erradicada pelo coelho dourado.\n\n";
                         cout << "GAME OVER\n";
+                        cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
                     }
@@ -1951,6 +1990,7 @@ int main()
     else if (escolha == 2)
     {
         cout << "2 #> *Os guardas se entreolham e o soldado atrás de você bate na sua cabeça com toda a força, você cai no chão atordoado quase não conseguindo manter os olhos abertos e não ouve mais nada, Pancho vai para cima do soldado e prensa ele contra a parede, o outro soldado acerta Pancho com a espada na cintura e ele cambaleia para trás, sangrando, e cai, outros guardas vêem o ocorrido e seguram Maximus, você não consegue mais se manter acordado. GAME OVER\n\n";
+        cout << "\n\n Digite 1 para Fechar!\n";
         cin >> FimInput;
         return 0;
     }
