@@ -239,8 +239,8 @@ int main()
                     }
 
                     // Ir ao barulho - GAME OVER
-                    if (escolha == 2){
-                        cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
+                    else if (escolha == 2){
+                        cout << "*Vocês vão em direção ao barulho e se deparam com uma equipe de cinco guardas, eles os veem e acionam um alarme, vocês tentam correr mas mais guardas começam a  aparecer, até vocês ficarem encurralados, os guardas capturam vocês e te executam - GAME OVER\n";
                         cout << "\n\n Digite 1 para Fechar!\n";
                         cin >> FimInput;
                         return 0;
