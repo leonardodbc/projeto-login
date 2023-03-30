@@ -15,10 +15,12 @@ int main()
     cout << "# 2- Onde estamos?\n";
     cout << "# 3- Fomos capturados?\n";
     cin >> escolha;
+    cout << "\n";
     cout << "\"Nós estamos presos em uma base inimiga próxima à localização do Ovo Dourado, fomos capturados por uma equipe de rastreamento, precisamos chegar logo antes de descobrirem que estamos atrás do Ovo Dourado\" - Pancho\n";
     cout << "# 1- Como vamos sair daqui?\n";
     cout << "# 2- Olhar em volta do cômodo\n";
     cin >> escolha;
+    cout << "\n";
 
     // Perguntar
     if (escolha == 1){
@@ -33,6 +35,7 @@ int main()
     cout << "# 1- Tentar quebrar o teto\n";
     cout << "# 2- Bater na porta\n";
     cin >> escolha;
+    cout << "\n";
 
     // Quebrar o teto
     if (escolha == 1){
@@ -41,10 +44,12 @@ int main()
         cout << "# 1- Direita\n";
         cout << "# 2- Esquerda\n";
         cin >> escolha;
+        cout << "\n";
         cout << "* Você segue pela tubulação em uma linha reta até encontrar uma saída de ar que da acesso ao corredor, não há qualquer barulho abaixo, o que você faz?\n";
         cout << "# 1- Descer para o corredor\n";
         cout << "# 2- Continuar\n";
         cin >> escolha;
+        cout << "\n";
 
         // Continuar
         if (escolha == 2){
@@ -56,6 +61,7 @@ int main()
         cout << "# 1- Voltar até a porta do quarto \n";
         cout << "# 2- Vasculhar outro quarto\n";
         cin >> escolha;
+        cout << "\n";
 
         // Voltar para o quarto
         if (escolha == 1){
@@ -64,6 +70,7 @@ int main()
             cout << "# 1- Entrar em outro quarto\n";
             cout << "# 2- Se esconder e esperar\n";
             cin >> escolha;
+            cout << "\n";
 
             // Entrar em outro quarto
             if (escolha == 1){
@@ -71,6 +78,7 @@ int main()
                 cout << "# 1- Olhar o baú\n";
                 cout << "# 2- Pegar o cajado\n";
                 cin >> escolha;
+                cout << "\n";
 
                 // Olhar o baú
                 if (escolha == 1){
@@ -81,6 +89,7 @@ int main()
                     cout << "# 1- Voltar para o quarto \n";
                     cout << "# 2- Ir em direção ao barulho\n";
                     cin >> escolha;
+                    cout << "\n";
 
                     // Voltar para o quarto
                     if (escolha == 1){
@@ -108,6 +117,7 @@ int main()
                     cout << "# 1- Voltar para o quarto \n";
                     cout << "# 2- Ir em direção ao barulho\n";
                     cin >> escolha;
+                    cout << "\n";
 
                     // Voltar para o quarto
                     if (escolha == 1){
@@ -148,6 +158,7 @@ int main()
                 cout << "# 1- Ir para cima do soldado e desarma-lo\n";
                 cout << "# 2- Chamar a atenção do soldado\n";
                 cin >> escolha;
+                cout << "\n";
 
                 // Ir para cima
                 if (escolha == 1){
@@ -156,6 +167,7 @@ int main()
                     cout << "# 1- Entrar em outro quarto\n";
                     cout << "# 2- Ir em direção ao barulho\n";
                     cin >> escolha;
+                    cout << "\n";
 
                     // Voltar para o quarto
                     if (escolha == 1){
@@ -221,6 +233,7 @@ int main()
             cout << "# 1- Olhar o baú\n";
             cout << "# 2- Pegar o cajado\n";
             cin >> escolha;
+            cout << "\n";
 
             // Olhar o baú
             if (escolha == 1){
@@ -296,6 +309,7 @@ int main()
         cout << "# 1- Chamar por ajuda\n";
         cout << "# 2- Se preparar caso alguém entre\n";
         cin >> escolha;
+        cout << "\n";
 
         // Chamar por ajuda
         if (escolha == 1){
@@ -303,6 +317,7 @@ int main()
             cout << "# 1- Perguntar onde estão\n";
             cout << "# 2- Lutar \n";
             cin >> escolha;
+            cout << "\n";
 
             // Perguntar - Game over
             if (escolha == 1){
@@ -312,6 +327,7 @@ int main()
                 cout << "# 1- \"Estou procurando pelo Ovo Dourado\"\n";
                 cout << "# 2- \"Viemos aqui para entrar para os Tooney Lunes\"\n";
                 cin >> escolha;
+                cout << "\n";
 
                 // Game over
                 if (escolha == 1){
@@ -357,6 +373,7 @@ int main()
             cout << "# 1- Entrar no quarto da frente\n";
             cout << "# 2- Ir em direção ao barulho\n";
             cin >> escolha;
+            cout << "\n";
 
             // Quarto da frente
             if (escolha == 1){
@@ -398,6 +415,7 @@ int main()
     cout << "# 1- Janela\n";
     cout << "# 2- Escada\n";
     cin >> escolha;
+    cout << "\n";
 
     // Segundo cenário
     // Janela
@@ -406,6 +424,7 @@ int main()
         cout << "# 1- Se arrisca ser pego, mas fazer uma corda maior\n";
         cout << "# 2- Fugir com essa corda\n";
         cin >> escolha;
+        cout << "\n";
 
         // Segundo cenário
         // Se arriscar
@@ -414,6 +433,7 @@ int main()
             cout << "# 1- Esconder\n"; 
             cout << " # 2- Ir pra cima\n";
             cin >> escolha;
+            cout << "\n";
 
             // Segundo cenário
             // Esconder
@@ -427,6 +447,7 @@ int main()
                 cout << "# 1- Ataca \n";
                 cout << "# 2- Continua escondido\n";
                 cin >> escolha;
+                cout << "\n";
                 
                 // Segundo cenário
                 // Atacar
@@ -441,6 +462,7 @@ int main()
                     cout << "# 2- \"A resistência irá ganhar no fim, vocês Tooney Lunes NUNCA IRÃO DOMINAR O MUNDO!\"\n";
                     cout << "# 3- \"Vocês são a pior escória desse mundo, VOCÊ VAI PARA O INFERNO JUNTO COMIGO!\"\n";
                     cin >> escolha;
+                    cout << "\n";
 
                     // Falas
                     if (escolha == 1){
@@ -495,6 +517,7 @@ int main()
             cout << "# 1- Carrega Pancho nas costas\n";
             cout << "# 2- Se entregam\n";
             cin >> escolha;
+            cout << "\n";
             if (escolha == 1){
                 cout << "*Você fala para Pancho subir em suas costas e ele usa toda a força restante para se apoiar em você, vocês seguem para a floresta, porém depois de algumas horas de procura, os guardas conseguem encontrar vocês, vocês são pegos e executados em nome dos Tooney Lunes - GAME OVER\n";
                 return 0;
@@ -521,6 +544,7 @@ int main()
         cout << "# 1- Atacar o coelho\n";
         cout << "# 2- Correr até a porta\n";
         cin >> escolha;
+        cout << "\n";
 
         // Atacar o coelho
         if (escolha == 1){
@@ -529,6 +553,7 @@ int main()
             cout << "# 2- Pegar a chave\n";
             cout << "# 3- Olhar a bolsa\n";
             cin >> escolha;
+            cout << "\n";
 
             // Ler papel
             if (escolha == 1){
@@ -560,6 +585,7 @@ int main()
             cout << "# 1- Forçar a porta\n";
             cout << "# 2- Quebrar o vidro\n";
             cin >> escolha;
+            cout << "\n";
 
             // Forçar a porta - GAME OVER
             if (escolha == 1){
